@@ -1,0 +1,4 @@
+ham ek function banate hai otp relate krne ke liye jo hame key return krta hai, 
+normally key hamare constant file se aati hai, but jab hame ek dynamic value chahiye hoti hai toh function hi bananna padta hai
+
+jab bhi otp generate hota hai, uske sath ek timestamp bhi generate hota hai. Jab user otp enter karta hai, toh system check karta hai ki otp valid hai ya nahi, aur saath hi check karta hai ki otp expire toh nahi ho gaya. Agar otp expire ho gaya hai, toh user ko ek error message dikhaya jata hai ki otp expired ho gaya hai, aur user ko naya otp generate karne ke liye kaha jata hai. Is tarah se hum ensure kar sakte hain ki otp sirf ek limited time ke liye valid rahe, aur security badh jati hai.
